@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Colour Game</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+        <script src="game.js"></script>
+        <div class="container">
+            <h1>Welcome to the game</h1>
+            <h2 class="choose">Choose one fav colour of these colours</h2>
+            <div class="colors">
+                <div class="R">RED</div>
+                <div class="Y">YELLOW</div>
+                <div class="B">BLUE</div>
+                <div class="P">PINK</div>
+                 <div class="W">WHITE</div>
+                <div class="BL">GREEN</div>
+            </div>
+            <p class="text">If the colour you choose is in it, click <span class="yy"><q>YES</q></span>, otherwise click <span class="nn"><q>NO</q></span></p>
+            <div class="selectors">
+                <div class="select1">
+                <div class="r">RED</div>
+                <div class="y">YELLOW</div>
+                <div class="p">PINK</div>
+            </div>
+            <div class="select2">
+
+                <div class="b">BLUE</div>
+                <div class="p">PINK</div>
+                <div class="w">WHITE</div>
+                <div class="bl">GREEN</div>
+            </div>
+            <div class="select3">
+                 <div class="b">BLUE</div>
+                <div class="p">PINK</div>
+                <div class="y">YELLOW</div>
+            </div>
+            <div class="select4">
+                <div class="r">RED</div>
+                <div class="y">YELLOW</div>
+                <div class="b">BLUE</div>
+                <div class="p">PINK</div>
+                <div class="bl">GREEN</div>
+        </div>
+            </div>
+            <div class="options">
+            <div class="option1">
+            <lable class="select11">SELECT</lable><br>
+            <input type="radio" class="yes" name="select11" onclick="lk40()">
+            <label>YES</label>
+            <input type="radio" class="no"  name="select11">
+            <lable>NO</lable>
+            </div>
+             <div class="option2">
+            <lable class="select22">SELECT</lable><br>
+            <input type="radio" class="yes" name="select22" onclick="lk30()">
+            <label>YES</label>
+            <input type="radio" class="no"  name="select22">
+            <lable>NO</lable>
+            </div>
+            <div class="option3">
+            <lable class="select33">SELECT</lable><br>
+            <input type="radio" class="yes" name="select33" onclick="lk20()">
+            <label>YES</label>
+            <input type="radio" class="no"  name="select33">
+            <lable>NO</lable>
+            </div>
+                        <div class="option4">
+            <lable class="select44">SELECT</lable><br>
+            <input type="radio" class="yes" name="select44" onclick="lk10()">
+            <label>YES</label>
+            <input type="radio" class="no"  name="select44">
+            <lable>NO</lable>
+            </div>
+            </div>
+            <input type="submit" class="submit" onclick="display()" >
+            <p class="fav-color">YOUR FAV COLOR IS :  <span class="fav" id="lk" ></span></p>
+
+        </div>
+    </body>
+</html>
