@@ -28,7 +28,7 @@ function display(){
         case 30:document.getElementById("lk").innerHTML="WHITE";
                 document.getElementById("lk").style.backgroundColor="white";
         break;
-       case 40:document.getElementById("lk").innerHTML="BLACK";
+       case 40:document.getElementById("lk").innerHTML="GREEN";
                document.getElementById("lk").style.backgroundColor="green";
         break;
     }
