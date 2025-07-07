@@ -29,7 +29,7 @@ function display(){
                 document.getElementById("lk").style.backgroundColor="white";
         break;
        case 40:document.getElementById("lk").innerHTML="BLACK";
-               document.getElementById("lk").style.backgroundColor="black";
+               document.getElementById("lk").style.backgroundColor="green";
         break;
     }
 }
